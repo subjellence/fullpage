@@ -1,0 +1,293 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*第一页*/
+.page1 {
+	/*background: url(../img/home.png) no-repeat center center;
+	background-size: 100%;*/
+	position: relative;
+}
+.page1 .bac{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+/*背景图*/
+.bac img{
+	width: 100%;
+	height: 100%;
+}
+/*头像*/
+.page1 .touxiang{
+	width: 30%;
+	height: 14.2%;
+	position: absolute;
+	top: 27%;
+	left: 50%;
+	margin-left: -15%;
+}
+.page1 .touxiang img{
+	width: 100%;
+	height: 100%;
+}
+/*输入框*/
+.page1 .input{
+	width: 50%;
+	height: 8%;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-left: -25%;
+}
+.page1 .input input{
+	width: 75%;
+	height: 65%;
+	position: absolute;
+	top: 15%;
+	left: 37%;
+	margin-left: -25%;
+	z-index: 998;
+}
+.page1 .input img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	/*z-index: -1;*/
+}
+/*测试按钮*/
+.page1 .button{
+	width: 50%;
+	height: 8%;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	margin-left: -25%;
+}
+.page1 .button img{
+	width: 100%;
+	height: 100%;
+}
+/*第二页*/
+.page2{
+	position: relative;
+}
+.page2 .bac{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.page2 .next2{
+	position: absolute;
+	bottom: 34%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page2 .next2 img{
+	width: 100%;
+	height: 100%;
+}
+/*第三页*/
+.page3{
+	position: relative;
+}
+.page3 .bac{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.page3 .prev3{
+	position: absolute;
+	bottom: 39%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page3 .prev3 img{
+	width: 100%;
+	height: 100%;
+}
+.page3 .next3{
+	position: absolute;
+	bottom: 34%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page3 .next3 img{
+	width: 100%;
+	height: 100%;
+}
+/*第四页*/
+.page4{
+	position: relative;
+}
+.page4 .bac{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.page4 .prev4{
+	position: absolute;
+	bottom: 39%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page4 .prev4 img{
+	width: 100%;
+	height: 100%;
+}
+.page4 .next4{
+	position: absolute;
+	bottom: 34%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page4 .next4 img{
+	width: 100%;
+	height: 100%;
+}
+/*第五页*/
+.page5{
+	position: relative;
+}
+.page5 .bac{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.page5 .prev5{
+	position: absolute;
+	bottom: 39%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page5 .prev5 img{
+	width: 100%;
+	height: 100%;
+}
+.page5 .next5{
+	position: absolute;
+	bottom: 34%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page5 .next5 img{
+	width: 100%;
+	height: 100%;
+}
+/*第六页*/
+.page6{
+	position: relative;
+}
+.page6 .bac{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.page6 .prev6{
+	position: absolute;
+	bottom: 39%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page6 .prev6 img{
+	width: 100%;
+	height: 100%;
+}
+.page6 .next6{
+	position: absolute;
+	bottom: 34%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page6 .next6 img{
+	width: 100%;
+	height: 100%;
+}
+/*第七页*/
+.page7{
+	position: relative;
+}
+.page7 .bac{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.page7 .prev7{
+	position: absolute;
+	bottom: 39%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page7 .prev7 img{
+	width: 100%;
+	height: 100%;
+}
+.page7 .next7{
+	position: absolute;
+	bottom: 34%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page7 .next7 img{
+	width: 100%;
+	height: 100%;
+}
+/*第八页*/
+.page8{
+	position: relative;
+}
+.page8 .bac{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.page8 .prev8{
+	position: absolute;
+	bottom: 39%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page8 .prev8 img{
+	width: 100%;
+	height: 100%;
+}
+.page8 .next8{
+	position: absolute;
+	bottom: 34%;
+	right: 20%;
+	width: 23%;
+	height: 4%;
+}
+.page8 .next8 img{
+	width: 100%;
+	height: 100%;
+}

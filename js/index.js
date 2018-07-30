@@ -1,0 +1,58 @@
+$('.wp-inner').fullpage({
+	page:'.page',
+	start:0,//首次显示的屏幕索引
+	duration: 500, //每屏动画切换的时间
+	drag: true,  //是否开启拖动功能，默认关闭
+	loop:false,//实现循环滚动
+	dir: 'v',  //切换屏幕的方向，默认垂直方向(v|h)
+});
+//第一页点击跳到下一页
+$('#button').click(function(){
+	$.fn.fullpage.moveTo(1)	
+});
+//第二页点击跳到下一页
+$('.next2').click(function(){
+	$.fn.fullpage.moveTo(2);
+});
+//第三页点击跳到下一页
+$('.prev3').click(function(){
+	$.fn.fullpage.moveTo(1);
+});
+$('.next3').click(function(){
+	$.fn.fullpage.moveTo(3);
+});
+//第四页点击跳到下一页
+$('.prev4').click(function(){
+	$.fn.fullpage.moveTo(2);
+});
+$('.next4').click(function(){
+	$.fn.fullpage.moveTo(4);
+});
+//第五页点击跳到下一页
+$('.prev5').click(function(){
+	$.fn.fullpage.moveTo(3);
+});
+$('.next5').click(function(){
+	$.fn.fullpage.moveTo(5);
+});
+//第六页点击跳到下一页
+$('.prev6').click(function(){
+	$.fn.fullpage.moveTo(4);
+});
+$('.next6').click(function(){
+	$.fn.fullpage.moveTo(6);
+});
+//第七页点击跳到下一页
+$('.prev7').click(function(){
+	$.fn.fullpage.moveTo(5);
+});
+$('.next7').click(function(){
+	$.fn.fullpage.moveTo(7);
+});
+//第八页点击跳到下一页
+$('.prev8').click(function(){
+	$.fn.fullpage.moveTo(6);
+});
+$('.next8').click(function(){
+	$.fn.fullpage.moveTo(8);
+});
